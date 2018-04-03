@@ -11,7 +11,35 @@
     </Window.Background>
     <Grid x:Name="FormMainWindow">
         <Grid.Background>
-            <ImageBrush ImageSource="/assets/background.png"/>
+            <ImageBrush ImageSource="Assets/background.png"/>
         </Grid.Background>
+        <Button x:Name="RegisterButton" HorizontalAlignment="Left" Margin="599,365,0,0" VerticalAlignment="Top" Width="253" Height="34" BorderBrush="Transparent" Foreground="#b5de29">
+            <Button.Background>
+                <ImageBrush ImageSource="Assets/register_button.png"/>
+            </Button.Background>
+            <Button.Content>
+                <StackPanel>
+                    <TextBlock Text="CLICK HERE TO CREATE ACCOUNT NOW" FontFamily="Akrobat Bold" FontSize="12" Width="172"/>
+                </StackPanel>
+            </Button.Content>
+        </Button>
+        <PasswordBox x:Name="Password" Padding="33, 8, 8, 8" HorizontalAlignment="Left" Height="37" Margin="599,281,0,0" Foreground="#42b3bd"  BorderBrush="Transparent" VerticalAlignment="Top" Width="253">
+            <PasswordBox.Background>
+                <ImageBrush ImageSource="Assets/textinput.png"/>
+            </PasswordBox.Background>
+
+            <PasswordBox.CaretBrush>
+                <SolidColorBrush Color="White" />
+            </PasswordBox.CaretBrush>
+        </PasswordBox>
+        <TextBox x:Name="EMail" Padding="33, 8, 8, 8" HorizontalAlignment="Left" Height="37" Margin="599,231,0,0" Foreground="#42b3bd"  BorderBrush="Transparent" VerticalAlignment="Top" Width="253">
+            <TextBox.Background>
+                <ImageBrush ImageSource="Assets/textinput.png"/>
+            </TextBox.Background>
+
+            <TextBox.CaretBrush>
+                <SolidColorBrush Color="White" />
+            </TextBox.CaretBrush>
+        </TextBox>
     </Grid>
 </Window>

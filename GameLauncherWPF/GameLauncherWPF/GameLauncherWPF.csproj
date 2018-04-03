@@ -84,6 +84,15 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <Resource Include="Assets\Fonts\Airport-Cyr.ttf" />
+    <Resource Include="Assets\Fonts\Akrobat-Black.otf" />
+    <Resource Include="Assets\Fonts\Akrobat-Bold.otf" />
+    <Resource Include="Assets\Fonts\Akrobat-ExtraBold.otf" />
+    <Resource Include="Assets\Fonts\Akrobat-ExtraLight.otf" />
+    <Resource Include="Assets\Fonts\Akrobat-Light.otf" />
+    <Resource Include="Assets\Fonts\Akrobat-Regular.otf" />
+    <Resource Include="Assets\Fonts\Akrobat-SemiBold.otf" />
+    <Resource Include="Assets\Fonts\Akrobat-Thin.otf" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,8 +102,14 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="assets\background.png" />
-    <Resource Include="assets\register_button.png" />
+    <Resource Include="Assets\background.png" />
+    <Resource Include="Assets\register_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\textinput.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
