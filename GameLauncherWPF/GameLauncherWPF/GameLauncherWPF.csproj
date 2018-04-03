@@ -111,5 +111,8 @@
   <ItemGroup>
     <Resource Include="Assets\textinput.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CustomControls\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
